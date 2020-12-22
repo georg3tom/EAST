@@ -3,7 +3,7 @@ import time
 import math
 import os
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from collections import namedtuple
 
 import east.locality_aware_nms as nms_locality
